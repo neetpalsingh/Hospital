@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Staff</title>
+    <!-- aos css file cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- magnific popup css cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+    <!-- bootstrap cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            height: 100vh;
+            background: linear-gradient( to bottom, #dfeff3 50%, #2987e4 50%);
+        }
+        
+        .team-area {
+            padding-top: 15%;
+        }
+        
+        .single-team {
+            box-shadow: 0px 7px 7px 2px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            margin-bottom: 10px;
+            margin-left: 110px;
+            margin-top: 45px;
+            height: fit-content;
+            width: 250px;
+        }
+        
+        .single-team:hover .social {
+            cursor: pointer;
+            opacity: 1;
+            transform: rotateY(0deg) scale(1, 1);
+        }
+        
+        .img-area {
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .img-area img {
+            width: 100%;
+        }
+        
+        .img-area:hover img {
+            transform: scale(1.2)
+        }
+        
+        .img-area img {
+            transition: all 0.4s ease 0s;
+        }
+        
+        @media (max-width: 768px) {
+            .img-area img {
+                display: inline-block;
+            }
+        }
+        
+        .img-area .social {
+            background-color: rgba(0, 0, 0, 0.7);
+            position: absolute;
+            text-align: center;
+            height: 100%;
+            width: 60%;
+            left: 0;
+            top: 0;
+            opacity: 0;
+            transition: .5s;
+            transform: rotateY(180deg) scale(0.5, 0.5);
+        }
+        
+        .img-area .social ul {
+            text-align: center;
+            position: relative;
+            top: 75px;
+        }
+        
+        .img-area .social ul li a {
+            border: 1px solid black;
+            color: #fff;
+            display: block;
+            font-size: 20px;
+            height: 40px;
+            width: 40px;
+            line-height: 40px;
+            text-align: center;
+        }
+        
+        .img-area .social ul li a:hover {
+            background-color: #fff;
+            color: blue;
+            border: 1px solid transparent;
+        }
+        
+        .img-text {
+            padding: 25px;
+            color: black;
+            text-align: center;
+        }
+        
+        .img-text h4 {
+            margin: 0 0 5px;
+            font-size: 30px;
+            font-family: sans-serif;
+            letter-spacing: 2px;
+            color: red;
+        }
+        
+        .img-text h5 {
+            font-size: 17px;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="container">
+
+            <a href="#" class="logo"><span>H</span>ealth<span>C</span>are.</a>
+
+            <nab class="nav">
+                <ul>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li>
+                        <a href="#facility">Gallery</a>
+                    </li>
+                    <li><a href="#review">review</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <li><a href="#post">post</a></li>
+                    <li>
+                        <a href="staff.html">Staff</a>
+                    </li>
+                </ul>
+            </nab>
+
+            <div class="fas fa-bars"></div>
+
+        </div>
+
+    </header>
+    <nav>
+        <ul>
+            <li><a href=""><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i><span>Instagram</span></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i><span>linkedin</span></a></li>
+
+        </ul>
+    </nav>
+
+
+
+    <div class="team-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-team">
+                        <div class="img-area">
+                            <img src="img/neetu2.jpg" class="img-responsive" alt="">
+                            <div class="social">
+                                <ul class="list-inline">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="img-text">
+                            <h4>Dr.Neetpal</h4>
+                            <h5>Psychologist</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-team">
+                        <div class="img-area">
+                            <img src="img/neetu1.jpg" class="img-responsive" alt="">
+                            <div class="social">
+                                <ul class="list-inline">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="img-text">
+                            <h4>Dr.Neetpal</h4>
+                            <h5>Neuro spacelist</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-team">
+                        <div class="img-area">
+                            <img src="img/neetu3.jpg" class="img-responsive" alt="">
+                            <div class="social">
+                                <ul class="list-inline">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="img-text">
+                            <h4>Dr.Neetpal</h4>
+                            <h5>Sarjan spacelist</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-team">
+                        <div class="img-area">
+                            <img src="img/neetu4.jpg" class="img-responsive" alt="">
+                            <div class="social">
+                                <ul class="list-inline">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="img-text">
+                            <h4>Dr.Neetpal</h4>
+                            <h5>heart spacelist</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer>
+        <div class="main-content">
+            <div class="left box">
+                <h2>About us</h2>
+                <div class="content">
+                    <p>Health care is a hospital service for the all typ patients. we meet our docters though online appointment. we help to stay healthy you.</p>
+                    <div class="social">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                    </div>
+                </div>
+            </div>
+
+            <div class="center box">
+                <h2>Address</h2>
+                <div class="content">
+                    <div class="place">
+                        <span class="fas fa-map-marker-alt"></span>
+                        <span class="text">mathura</span>
+                    </div>
+                    <div class="phone">
+                        <span class="fas fa-phone-alt"></span>
+                        <span class="text">+091-7505687812</span>
+                    </div>
+                    <div class="email">
+                        <span class="fas fa-envelope"></span>
+                        <span class="text">abc@example.com</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right box">
+                <h2>Contact us</h2>
+                <div class="content">
+                    <form action="#">
+                        <div class="email">
+                            <div class="text">Email *</div>
+                            <input type="email" required>
+                        </div>
+                        <div class="msg">
+                            <div class="text">Message *</div>
+                            <textarea rows="2" cols="25" required></textarea>
+                        </div>
+                        <div class="btn">
+                            <button type="submit">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <center>
+                <span class="credit">Created By <a href="https://neetpalsingh.github.io/about.github.io/">NeetpalSingh</a> | </span>
+                <span class="far fa-copyright"></span><span> 2022 All rights reserved.</span>
+            </center>
+        </div>
+    </footer>
+
+
+
+
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- magnific popup js link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+    <!-- aos js file cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <!-- custom js link  -->
+    <script src="main.js"></script>
+
+
+    <script>
+        AOS.init({
+            duration: 1000,
+            delay: 400
+        });
+    </script>
+
+</body>
+
+</html>
